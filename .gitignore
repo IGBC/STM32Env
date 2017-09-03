@@ -1,0 +1,12 @@
+cmsis_exports.c
+resource/
+
+main.hex
+main.bin
+main.map
+main.lst
+
+*.expand
+*.pp
+*.o
+*.elf
