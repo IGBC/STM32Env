@@ -59,6 +59,7 @@ program: main.elf openocd.cfg
 
 clean:
 	rm -f **.o
+	rm -f **.pp
 	rm -f main.elf main.hex main.bin main.map main.lst
 	rm -f **.expand
 
