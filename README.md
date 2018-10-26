@@ -15,7 +15,8 @@ Installation
         
 Configuration
 =============
-Copy the STMCube files to `./resource/STM32CubeF1` or set `CUBE_PATH` 
+  * Copy the STMCube files to `./resource/STM32CubeF1` or set `CUBE_PATH`
+  * Select the desired programming interface in `openocd.conf`
 
 Usage
 =====
