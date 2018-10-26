@@ -23,8 +23,9 @@ Usage
   * use `make program` to upload to the target
   * use `openocd` (may need to run as root) to open a communication channel to the device. This is known working with JLink, not yet working with STLink
   * use `arm-none-eabi-gdb` to get a debugger shell
+  * enter the following into the gdb shell to connect to openocd
      ```
-     some commands that are needed go here
+     (gdb) target remote localhost:3333
      ```
 
 Credits
